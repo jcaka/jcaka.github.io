@@ -20,14 +20,11 @@ body{
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 header.main{
-  width: 720px;
-  padding: 20px 0;
+  padding: 20px;
 }
-
 nav.main{
   display: flex;
   justify-content: space-between;
@@ -54,4 +51,17 @@ h1{
 
 main{
   flex: 1;
+}
+
+
+@media (min-width: 800px){
+
+  body{
+    align-items: center;
+  }
+
+  header.main{
+    width: 720px;
+  }
+
 }
