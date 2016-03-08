@@ -2,7 +2,7 @@
 
 html, body{
   background: #fafafa;
-  font: 16px/1.38 sans-serif;
+  font: 12px/1.38 sans-serif;
   color: #212121;
 }
 
@@ -73,6 +73,10 @@ main{
 
 
 @media (min-width: 800px){
+
+  html,body{
+    font: 16px/1.38 sans-serif;
+  }
 
   body{
     align-items: center;
