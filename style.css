@@ -96,7 +96,7 @@ nav.social img{
   transition: transform 400ms cubic-bezier(.4,.0,.23,1);
 }
 .carousel img{
-  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 800px){

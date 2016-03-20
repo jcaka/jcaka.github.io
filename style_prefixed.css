@@ -72,7 +72,7 @@ h1{
 }
 
 main{
-  padding: 0 20px;
+  padding: 0 20px 40px;
 }
 
 .videoWrapper{
@@ -128,7 +128,7 @@ nav.social img{
   transition: transform 400ms cubic-bezier(.4,.0,.23,1), -webkit-transform 400ms cubic-bezier(.4,.0,.23,1);
 }
 .carousel img{
-  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 800px){
