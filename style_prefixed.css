@@ -116,8 +116,7 @@ nav.social img{
 
 .carousel{
   position: relative;
-  width: 680px;
-  height: 453px;
+  width: 100%;
   overflow: hidden;
   white-space: nowrap;
 }
