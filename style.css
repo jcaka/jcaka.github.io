@@ -95,6 +95,9 @@ nav.social img{
   letter-spacing: -1em;
   transition: transform 400ms cubic-bezier(.4,.0,.23,1);
 }
+.carousel img{
+  height: 100%;
+}
 
 @media (min-width: 800px){
 
