@@ -2,12 +2,20 @@
 
 html, body{
   background: #fafafa;
-  font: 12px/1.38 sans-serif;
+  font: 12px/1.62 "Lora", sans-serif;
   color: #212121;
 }
 
 html{
   height: 100%;
+}
+
+p{
+  text-indent: 2em;
+  text-align: justify;
+}
+p + p{
+  margin-top: 2em;
 }
 
 a, a:link, a:visited{
@@ -102,7 +110,7 @@ nav.social img{
 @media (min-width: 800px){
 
   html,body{
-    font: 16px/1.38 sans-serif;
+    font-size: 18px;
   }
 
   body{
